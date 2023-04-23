@@ -22,16 +22,16 @@ const sizes = {
 */
 const textureLoader = new THREE.TextureLoader()
 
-const bgTexture = textureLoader.load('/assets/textures/background.jpg')
-const sunTexture = textureLoader.load('/assets/textures/sun.jpg')
-const mercuryTexture = textureLoader.load('/assets/textures/mercury.jpg')
-const venusTexture = textureLoader.load('/assets/textures/venus.jpg')
-const earthTexture = textureLoader.load('/assets/textures/earth.jpg')
-const marsTexture = textureLoader.load('/assets/textures/mars.jpg')
-const jupiterTexture = textureLoader.load('/assets/textures/jupiter.jpg')
-const saturnTexture = textureLoader.load('/assets/textures/saturn.jpg')
-const uranusTexture = textureLoader.load('/assets/textures/uranus.jpg')
-const neptuneTexture = textureLoader.load('/assets/textures/neptune.jpg')
+const bgTexture = textureLoader.load('./assets/textures/background.jpg')
+const sunTexture = textureLoader.load('./assets/textures/sun.jpg')
+const mercuryTexture = textureLoader.load('./assets/textures/mercury.jpg')
+const venusTexture = textureLoader.load('./assets/textures/venus.jpg')
+const earthTexture = textureLoader.load('./assets/textures/earth.jpg')
+const marsTexture = textureLoader.load('./assets/textures/mars.jpg')
+const jupiterTexture = textureLoader.load('./assets/textures/jupiter.jpg')
+const saturnTexture = textureLoader.load('./assets/textures/saturn.jpg')
+const uranusTexture = textureLoader.load('./assets/textures/uranus.jpg')
+const neptuneTexture = textureLoader.load('./assets/textures/neptune.jpg')
 
 /**
  * Base

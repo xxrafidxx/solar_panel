@@ -1,4 +1,4 @@
-import './src/styles/style.css'
+import './style.css'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
@@ -22,16 +22,16 @@ const sizes = {
 */
 const textureLoader = new THREE.TextureLoader()
 
-const bgTexture = textureLoader.load('./assets/textures/background.jpg')
-const sunTexture = textureLoader.load('./assets/textures/sun.jpg')
-const mercuryTexture = textureLoader.load('./assets/textures/mercury.jpg')
-const venusTexture = textureLoader.load('./assets/textures/venus.jpg')
-const earthTexture = textureLoader.load('./assets/textures/earth.jpg')
-const marsTexture = textureLoader.load('./assets/textures/mars.jpg')
-const jupiterTexture = textureLoader.load('./assets/textures/jupiter.jpg')
-const saturnTexture = textureLoader.load('./assets/textures/saturn.jpg')
-const uranusTexture = textureLoader.load('./assets/textures/uranus.jpg')
-const neptuneTexture = textureLoader.load('./assets/textures/neptune.jpg')
+const bgTexture = textureLoader.load('../textures/background.jpg')
+const sunTexture = textureLoader.load('../textures/sun.jpg')
+const mercuryTexture = textureLoader.load('../textures/mercury.jpg')
+const venusTexture = textureLoader.load('../textures/venus.jpg')
+const earthTexture = textureLoader.load('../textures/earth.jpg')
+const marsTexture = textureLoader.load('../mars.jpg')
+const jupiterTexture = textureLoader.load('../textures/jupiter.jpg')
+const saturnTexture = textureLoader.load('../textures/saturn.jpg')
+const uranusTexture = textureLoader.load('../textures/uranus.jpg')
+const neptuneTexture = textureLoader.load('../textures/neptune.jpg')
 
 /**
  * Base
